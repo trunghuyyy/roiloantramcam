@@ -1,0 +1,237 @@
+#footer {
+    width: 100%;
+    height: auto;
+    background-color: orangered;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#btn-top{
+    position: fixed;
+    bottom: 50px;
+    right: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.wr-foot-top {
+    height: 65%;
+    display: flex;
+    /* flex-wrap      : wrap; */
+    justify-content: space-between;
+    margin-top: 4%;
+
+    .footer-left {
+        width: 45%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        .footer-left-logo {
+            margin-top: 1%;
+            height: 25%;
+        }
+
+        .footer-left-content {
+            display: flex;
+            flex-direction: column;
+
+            p {
+                color: #fff;
+            }   
+
+            .footer-left-email {
+                display: flex;
+                gap: 24px;
+                height: 30%;
+                width: 90%;
+
+                .footer-left-email-frame {
+                    display: flex;
+                    justify-content: center;
+                    width: 60%;
+                    border-radius: 8px;
+                    background-color: #fafafa;
+
+                    input{
+                        width: 100%;
+                    }
+                }
+
+                .btn-custom-regs-footer {
+                    align-items: center;
+                    background-color: #fff;
+                    border: none;
+                    border-radius: 8px;
+                    color: orangered;
+                    display: flex;
+                    font-family: PlusJakartaSans-Bold, sans-serif;
+                    font-size: 18px;
+                    justify-content: center;
+                    min-height: 48px;
+                    padding: 10px;
+                    transition: all .6s linear;
+
+                    &:hover {
+                        background-color: blue;
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+
+    .footer-right {
+        width: 600px;
+        height: 80%;
+        display: flex;
+        flex-direction: row;
+        line-height: 2;
+
+        .footer-right-directional {
+            width: 50%;
+            height: 100%;
+
+
+        }
+
+        .footer-right-links {
+            width: 50%;
+            height: 100%;
+
+        }
+    }
+}
+
+.footer-bot {
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 3%;
+
+    hr {
+        width: 100%;
+    }
+    p {
+        color: #fff;
+    }
+
+    .wr-foot-bottom {
+        width: 100%;
+        height: 90%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        .footer-bot-content-right {
+            width: 500px;
+            height: 40%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: flex-end;
+
+            .footer-bot-content-right-text {
+                width: 40%;
+            }
+
+            .footer-bot-content-right-menu {
+                width: 60%;
+            
+                .footer-bot-content-right-menu-list {
+                    align-items: center;
+                    display: flex;
+                    height: 100%;
+                    width: 100%;
+                    justify-content: flex-end;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+.footer-right-links-menu {
+    margin: 0px auto;
+    display: flex;
+    height: 100%;
+    width: 80%;
+    flex-direction: column;
+    margin-top: 10%;
+}
+
+.footer-right-links-menu a {
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+// h1 {
+//     color: orangered;
+//     font-size: 16px;
+// }
+
+
+// .footer-left-email-btn {
+//     display: flex;
+//     flex-direction: row;
+//     justify-content: center;
+//     align-items: center;
+//     width: 40%;
+//     background: #FFFFFF;
+//     border-radius: 8px;
+// }
+
+// .footer-left-email-btn h1 {
+//     color: #8c2e09;
+//     font-size: 15px;
+//     width: 90%;
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// .footer-bot-content-right-menu-list a {
+//     margin-left: 20px;
+// }

@@ -1,0 +1,79 @@
+#signal {
+    background: #fef9f8;
+    height: 865px;
+}
+
+.box-top-signal {
+    text-align: center;
+    color: orangered;
+    margin-bottom: 98px;
+}
+
+.box-bottom-sginal{
+    position: relative;
+
+    .row-signal {
+        display: flex;
+        justify-content: space-between;
+
+        .left{
+            width: 45%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            text-align: start;
+            gap: 40px;
+
+            .row-signal-setting-or{
+                border: 2px solid orangered;
+                background-color: orangered;
+                border-radius: 25px;
+                color: white;
+            }
+
+            .row-signal-setting-blue{
+                border: 2px solid rgb(10, 10, 124);
+                background-color: rgb(10, 10, 124);
+                border-radius: 25px;
+                color: white;
+            }
+        }
+
+        .circle-signal{
+            position: absolute;
+            right: 25%;
+            bottom: -54px;
+        }
+
+        .right {
+            width: 45%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            text-align: end;
+            gap: 70px;
+
+            .row-signal-setting-or{
+                border: 2px solid orangered;
+                background-color: orangered;
+                border-radius: 25px;
+                color: white;
+            }
+
+            .row-signal-setting-blue{
+                border: 2px solid rgb(10, 10, 124);
+                background-color: rgb(10, 10, 124);
+                border-radius: 25px;
+                color: white;
+            }
+        }
+        
+    } 
+}
+
+
+
+
+
+
+

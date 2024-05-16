@@ -1,0 +1,39 @@
+#disorders {
+    // width: 100%;
+    background-color: whitesmoke;
+    
+}
+
+
+.wr-disorders {
+    margin: 0 auto;
+    max-width: 1380px;
+    padding: 100px 0;
+    display: flex;
+
+    .box-left {
+        width: 60%;
+        margin-right: auto;
+
+        .title-disorders {
+            color: orangered;
+            font-size: 50px;
+            font-weight: 700;
+            margin-bottom: 50px;
+            width: 669px;
+        }
+    }
+
+    .box-right {
+        padding: 20px;
+        width: 40%;
+
+         img {
+            border-radius: 8px;
+            height: auto;
+            width: 400px;
+        }        
+    }
+}
+
+
